@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.test {
+    background-color: yellow;
+    text-align: center;
+    margin: 0;
+    padding: 1.25vw;
+}
+.options {
+    
+    float: left;
+    width: 11.25vw;
+    
+     text-align: center;
+    
+    
+}
+nav {
+   width: 90vw;
+    margin: 0% 10vw;
+    
+}
+.options :hover{
+    padding: 0.5%;
+    background-color: rgb(112, 100, 100);
+    transition-duration: 0.5s;
+}
+.container {
+    width:70vw;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 18px;
+    padding: 0 4.5vw ;
+    margin: auto;
+    text-align: center;
+
+}
+.bloc {
+   
+    height: 70px;
+    background-color: rgb(168, 85, 85);
+    margin-top: 15px;
+    width: 70vw;
+    border-radius: 10px;
+}
+.paymentMethod { 
+     border-right: solid 1px;
+}
+.beneftis {
+    margin-top: 7px;
+    float: left;
+    width: 16vw;
+   padding: 0 1.5vw;
+   text-align: center;
+}
+body {
+    background-color: rosybrown;
+}
+.formulario {
+    margin-top: 50px;
+    text-align: center;
+}
+.fotos {
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 450px;
+    text-align: center;
+   
+    
+    
+}
+.phone {
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    overflow: hidden;
+}
+.phone:hover{
+    
+    background-color: rgb(91, 91, 165);
+    height: 350px;
+    transition-duration: 0.5s;
+    overflow: visible;
+}
+img {
+    border: solid;
+}
+.container-img {
+    
+    height: 250px;
+    width: 150px;
+}
+.container-img img {
+   
+    height: 100%;
+    width: 100%;
+}
+
